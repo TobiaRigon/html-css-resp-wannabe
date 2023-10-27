@@ -129,9 +129,27 @@ img {
  ************************************************/
 
 
+/* tablet */
+
  @media all and ( max-width: 768px ){
     .container{
         width: 100%;
+    }
+ }
+
+
+ /* mobile */
+
+
+ @media all and ( max-width: 480px ){
+    .lessons .col, .steps .col, .why-us .col{
+        width: 100%;
+    }
+ }
+
+ @media all and ( max-width: 480px ){
+    .row{
+        display: block;
     }
  }
 
