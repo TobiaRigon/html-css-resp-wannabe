@@ -133,7 +133,8 @@ img {
 
  @media all and ( max-width: 1160px ){
     .container{
-        width: 100%;
+        width: auto;
+        max-width:1140px ;
     }
  }
 
@@ -152,4 +153,3 @@ img {
         display: block;
     }
  }
-
